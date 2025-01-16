@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp -r ~/.config/hypr/themes/pink/* -t ~/.config/
+swww img ~/.config/hypr/wallpaper.jpg --transition-type wipe --transition-fps 240
+hyprctl setcursor Catppuccin Mocha Dark 25
+killall waybar
+waybar
+
